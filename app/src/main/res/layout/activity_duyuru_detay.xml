@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:background="#E7F76D"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DuyuruDetayActivity">
+
+    <ImageView
+        android:layout_width="216dp"
+        android:layout_height="199dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/announcement"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etDuyuruBaslik"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Duyuru Başlığı"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/rounded_button2"
+        android:textColor="#131F49"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/etDuyuruIcerik"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/rounded_button2"
+        android:gravity="center"
+        android:text="Duyuru Metni"
+        android:textColor="#131F49"
+        android:textSize="22dp" />
+
+
+</LinearLayout>

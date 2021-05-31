@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEE29"
+    android:orientation="vertical"
+    tools:context=".Activity.YakitActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="Yakıt Tüketimi Bilgilerinizi Giriniz"
+        android:textColor="#131F49"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinerYakitTuru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp">
+
+    </Spinner>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextOrtalamaYakit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:hint="Ortalama Yakıt (L/KM)"
+                android:layout_marginBottom="5dp"
+                android:inputType="numberDecimal"
+                android:textColor="@color/renkModu1colorIlanBilgiGiris"
+                android:textColorHint="#131F49" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTextDepoHacmi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5dp"
+                    android:hint="Depo Hacmi (L)"
+                    android:layout_marginBottom="5dp"
+                    android:inputType="number"
+                    android:textColor="@color/renkModu1colorIlanBilgiGiris"
+                    android:textColorHint="#131F49" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/buttonYakitBilgi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginTop="30dp"
+        android:background="#131F49"
+        android:text="İLERİ"
+        android:textColor="#FFFFF7"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

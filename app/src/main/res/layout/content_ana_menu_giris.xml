@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/renkModu1AnaSayfa"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/app_bar_main">
+
+    <RelativeLayout
+        android:id="@+id/sliderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:orientation="vertical">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPagerAna"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFEF5" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/sliderLayout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="9dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonilanlar"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="9dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:drawableTop="@drawable/ilanlar"
+                android:padding="10dp"
+                android:text="İlanlar"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonilanVer"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="9dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:drawableTop="@drawable/ilanver3"
+                android:padding="10dp"
+                android:text="İlan Ver"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonFavoriilanlar"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="9dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:drawableTop="@drawable/favourite"
+                android:padding="10dp"
+                android:text="Favorilerim"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonilanlarım"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginVertical="9dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:drawableTop="@drawable/ilanlarim"
+                android:padding="10dp"
+                android:text="İlanlarım"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/buttonDuyurular"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="9dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:drawableTop="@drawable/message3"
+                android:padding="10dp"
+                android:paddingTop="100dp"
+                android:text="Duyurular"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonKullaniciBilgilerim"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="9dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_button"
+                android:drawableTop="@drawable/info2"
+                android:padding="10dp"
+                android:text="Bilgilerim"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

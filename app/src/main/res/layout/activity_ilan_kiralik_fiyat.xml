@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEE29"
+    android:orientation="vertical"
+    tools:context=".Activity.IlanKiralikFiyat">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="KİRALIK"
+        android:textColor="#131F49"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="İlan Fiyat Bilgilerinizi Giriniz"
+        android:textColor="#131F49"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinerHaftalikAylik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextKiralikFiyat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginBottom="5dp"
+                android:hint="Kiralık Fiyatı (TL)"
+                android:inputType="numberDecimal"
+                android:textColor="@color/renkModu1colorIlanBilgiGiris"
+                android:textColorHint="#131F49"
+                android:textSize="30dp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </com.google.android.material.textfield.TextInputLayout>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/buttonIlaniYayinlaKiralik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginTop="30dp"
+        android:background="#131F49"
+        android:text="İLANI YAYINLA"
+        android:textColor="#FFFFF7"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+
+
+
+</LinearLayout>

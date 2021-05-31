@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.info.otomotivmobilproje">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UygulamaIstatistikleriActivity"></activity>
+        <activity android:name=".Activity.DuyuruDetayActivity" />
+        <activity android:name=".Activity.MotorPerformansActivity" />
+        <activity android:name=".Activity.DuyuruEklemeActivity" />
+        <activity android:name=".Activity.DuyurularActivity" />
+        <activity android:name=".Activity.HakkimizdaActivity" />
+        <activity android:name=".Activity.AdminActivity" />
+        <activity android:name=".Activity.KullaniciSifreGuncellemeActivity" />
+        <activity android:name=".Activity.KullaniciBilgiGuncellemeActivity" />
+        <activity android:name=".Activity.KullaniciBilgilerimActivity" />
+        <activity android:name=".Activity.IlanlarimDetayDuzenleActivity" />
+        <activity android:name=".Activity.IlanlarimDetayActivity" />
+        <activity android:name=".Activity.DetayilanAyrintilarActivity" />
+        <activity android:name=".Activity.DetayilanActivity" />
+        <activity android:name=".Activity.FavorilerimActivity" />
+        <activity android:name=".Activity.IlanlarimActivity" />
+        <activity android:name=".Activity.IlanlarActivity" />
+        <activity android:name=".Activity.IlanFiyatSatilikActivity" />
+        <activity android:name=".Activity.IlanKiralikFiyat" />
+        <activity android:name=".Activity.IlanResimlerActivity" />
+        <activity android:name=".Activity.YakitActivity" />
+        <activity android:name=".Activity.IlanTuruActivity" />
+        <activity android:name=".Activity.AracBilgileriActivity" />
+        <activity android:name=".Activity.AdresBilgileriActivity" />
+        <activity
+            android:name=".Activity.AnaMenuGirisActivity"
+            android:label="@string/title_activity_ana_menu_giris"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity.KayitActivity" />
+        <activity android:name=".Activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

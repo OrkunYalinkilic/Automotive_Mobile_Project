@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEE29"
+    android:orientation="vertical"
+    tools:context=".Activity.IlanTuruActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="İlan Türü Bilgilerinizi Giriniz"
+        android:textColor="#131F49"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinerIlanTuru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+    <Spinner
+        android:id="@+id/spinerKimden"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Spinner>
+
+    <Button
+        android:id="@+id/buttonIlanTuru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginTop="30dp"
+        android:background="#131F49"
+        android:text="İLERİ"
+        android:textColor="#FFFFF7"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

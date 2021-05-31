@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7D1424"
+    android:orientation="vertical"
+    tools:context=".Activity.HakkimizdaActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:background="#EDD834"
+            android:gravity="center"
+            android:text="HAKKIMIZDA "
+            android:textColor="#7D1424"
+            android:textSize="50dp"
+            android:textStyle="bold|italic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity=""
+            android:padding="25dp"
+            android:text="Otomotiv Alım-Satım Uygulamamız gerçek hayatta araç sahipleri araçlarını satmak için daha fazla alıcıya ulaşıp, onların arasından seçmek ister veya alıcı tarafından düşünürsek, araç almak isteyen biri daha fazla çeşit araca ulaşıp, onların arasından seçim
+yapmayı ister.\n\nUygulamamız da alıcı ve satıcı arasında bu mobil uygulama ile bağlantı
+kurup her iki tarafında hedeflerine daha aktif ulaşabilmesi amacındadır.\n\n Kullanıcının isteklerini dikkate alarak,
+tamamen kullanıcıların eklediği ilanlar üzerinden bir nevi alım-satım yapılan uygulamadır.\n
+Uygulama aslında alıcı ve satıcı arasında bir reklam köprüsü görevindedir.\n\n
+Projenin asıl hedefi, otomotiv alıcısı ve satıcı arasında mobil uygulama ile köprü kurup, çeşitliliği sağlayarak
+ilgili kitleye ulaşılabilmesi sağlamaktır.\n\n
+• Login ve Register İşlemleri ile özel hesaplar\n
+• İlan verme özelliği\n
+• Araç ilanlarına resim ekleyebilme\n
+• Favori İlanlar ile yakın ilanları kayıt edebilme\n
+• Ana Ekranda slider özelliği\n
+• Kişisel bilgilerin güncellenmesi işlemleri\n
+• Verilmiş ilanları listeleme ve takip etme\n
+• İlan silme, güncelleme işlemleri\n
+ Ve daha birçok özellikler uygulamada.."
+            android:textColor="#FFFCE6"
+            android:textSize="16dp"
+            android:textStyle=""
+            app:fontFamily="@font/arbutus_slab" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

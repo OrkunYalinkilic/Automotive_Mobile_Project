@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFCD6"
+    android:orientation="vertical"
+    tools:context=".Activity.KullaniciBilgilerimActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="7dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/info2"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:text="Adınız "
+            android:textColor="#131F49"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/TextKullaniciDetayAd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:textColor="#131F49"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:text="Soyadınız "
+            android:textColor="#131F49"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/TextKullaniciDetaySoyad"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:textColor="#131F49"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:text="Doğum Tarihiniz "
+            android:textColor="#131F49"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/TextKullaniciDetayDogumTarih"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:textColor="#131F49"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:text="E-Mail Adresiniz "
+            android:textColor="#131F49"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/TextKullaniciDetayEMailAdres"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:textColor="#131F49"
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:text="Kullanıcı Adınız "
+            android:textColor="#131F49"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+
+            android:id="@+id/TextKullaniciDetayKullaniciAdi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:textColor="#131F49"
+            android:textSize="25dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonBilgiGuncelle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:drawableTop="@drawable/duzenlebilgi"
+            android:padding="10dp"
+            android:paddingTop="100dp"
+            android:text="BİLGİ GÜNCELLE"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonSifreGuncelle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:drawableTop="@drawable/duzenlesifre"
+            android:padding="10dp"
+            android:paddingTop="100dp"
+            android:text="ŞİFRE GÜNCELLE"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

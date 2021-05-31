@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFCD6"
+    android:orientation="vertical"
+    tools:context=".Activity.KullaniciSifreGuncellemeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:background="@drawable/password2"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:text="Eski Şifre "
+            android:textColor="#131F49"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/TextKullaniciGuncelleEskiSifre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:hint="Eski Şifre"
+            android:inputType="textPassword"
+            android:textColor="#131F49"
+            android:textSize="23dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:text="Yeni Şifre "
+            android:textColor="#131F49"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/TextKullaniciGuncelleSifre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:hint="Yeni Şifre"
+            android:inputType="textPassword"
+            android:textColor="#131F49"
+            android:textSize="23dp"
+
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:text="Yeni Şifre Tekrarı "
+            android:textColor="#131F49"
+            android:textSize="23dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/TextKullaniciGuncelleSifreTekrari"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:hint="Yeni Şifre Tekrarı"
+            android:inputType="textPassword"
+            android:textColor="#131F49"
+            android:textSize="23dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonDetaySifreGuncelle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_button"
+            android:backgroundTint="#F1C40F"
+            android:text="ŞİFRE GÜNCELLE"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

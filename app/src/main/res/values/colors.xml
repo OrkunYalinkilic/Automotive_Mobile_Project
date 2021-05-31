@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="renkModu1anaMenuBtColor">#FFFCE6</color>
+    <color name="renkModu1colorIlanBilgiGiris">#1D2247</color>
+    <color name="renkModu1colorCardilanlar">#E7F76D</color>
+    <color name="renkModu1colorilanlarArka">#203040</color>
+    <color name="renkModu1AnaSayfa">#11156D</color>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_kullanici_bilgilerim"
+        android:title="Kullanıcı Bilgilerim" />
+    <item
+        android:id="@+id/action_sifremi_degistir"
+        android:title="Şifremi Güncelle" />
+    <item
+        android:id="@+id/action_hakkimizda"
+        android:title="Hakkımızda" />
+    <item
+        android:id="@+id/action_cikis"
+        android:title="Çıkış Yap"
+        app:showAsAction="always" />
+</menu>
